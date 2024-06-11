@@ -1,0 +1,5 @@
+amount=int(input())
+tax=amount*5/100
+tip=amount*18/100
+total=amount+tax+tip
+print(f"The tax is {'{0:.2f}'.format(tax)} and the tip is {'{0:.2f}'.format(tip)}, making the total {'{0:.2f}'.format(total)}")
